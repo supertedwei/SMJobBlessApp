@@ -15,6 +15,10 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		BF04235611C0531400431286 /* SMJobBlessAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF04235511C0531400431286 /* SMJobBlessAppController.m */; };
 		BF65C19111B985C0007C20AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF65C19011B985C0007C20AB /* MainMenu.xib */; };
+		C43BFFA91E48108100670A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C43BFFA81E48108100670A44 /* AppDelegate.m */; };
+		C43BFFAB1E4820E400670A44 /* switchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C43BFFAA1E4820E400670A44 /* switchIcon.png */; };
+		C43BFFAE1E48248A00670A44 /* ThemeToggle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = C43BFFAC1E48248A00670A44 /* ThemeToggle.scpt */; };
+		C43BFFAF1E48248A00670A44 /* ThemeToggle.txt in Resources */ = {isa = PBXBuildFile; fileRef = C43BFFAD1E48248A00670A44 /* ThemeToggle.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,11 @@
 		BF04235411C0531400431286 /* SMJobBlessAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMJobBlessAppController.h; sourceTree = "<group>"; };
 		BF04235511C0531400431286 /* SMJobBlessAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMJobBlessAppController.m; sourceTree = "<group>"; };
 		BF65C19011B985C0007C20AB /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C43BFFA71E48108100670A44 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C43BFFA81E48108100670A44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C43BFFAA1E4820E400670A44 /* switchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchIcon.png; sourceTree = "<group>"; };
+		C43BFFAC1E48248A00670A44 /* ThemeToggle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThemeToggle.scpt; sourceTree = "<group>"; };
+		C43BFFAD1E48248A00670A44 /* ThemeToggle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThemeToggle.txt; sourceTree = "<group>"; };
 		E49FD424160884C000E6D764 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		E49FD425160884CE00E6D764 /* SMJobBlessUtil.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SMJobBlessUtil.py; sourceTree = "<group>"; };
 		E49FD4261608971E00E6D764 /* Uninstall.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Uninstall.sh; sourceTree = "<group>"; };
@@ -116,11 +125,16 @@
 		4BE4904710445D49006BE471 /* SMJobBlessApp */ = {
 			isa = PBXGroup;
 			children = (
+				C43BFFAC1E48248A00670A44 /* ThemeToggle.scpt */,
+				C43BFFAD1E48248A00670A44 /* ThemeToggle.txt */,
 				4BE4904C10445D49006BE471 /* SMJobBlessApp-Info.plist */,
+				C43BFFAA1E4820E400670A44 /* switchIcon.png */,
 				BF65C19011B985C0007C20AB /* MainMenu.xib */,
 				4BE4904D10445D49006BE471 /* main.m */,
 				BF04235411C0531400431286 /* SMJobBlessAppController.h */,
 				BF04235511C0531400431286 /* SMJobBlessAppController.m */,
+				C43BFFA71E48108100670A44 /* AppDelegate.h */,
+				C43BFFA81E48108100670A44 /* AppDelegate.m */,
 			);
 			path = SMJobBlessApp;
 			sourceTree = "<group>";
@@ -214,7 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43BFFAB1E4820E400670A44 /* switchIcon.png in Resources */,
 				BF65C19111B985C0007C20AB /* MainMenu.xib in Resources */,
+				C43BFFAF1E48248A00670A44 /* ThemeToggle.txt in Resources */,
+				C43BFFAE1E48248A00670A44 /* ThemeToggle.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +252,7 @@
 			files = (
 				4BE4905110445D49006BE471 /* main.m in Sources */,
 				BF04235611C0531400431286 /* SMJobBlessAppController.m in Sources */,
+				C43BFFA91E48108100670A44 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
