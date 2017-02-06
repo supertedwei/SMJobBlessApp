@@ -59,7 +59,8 @@ int main(int argc, const char * argv[])
     #pragma unused(argc)
     #pragma unused(argv)
 
-	syslog(LOG_NOTICE, "Hello world! uid = %d, euid = %d, pid = %d\n", (int) getuid(), (int) geteuid(), (int) getpid());
+//	syslog(LOG_NOTICE, "Hello world! uid = %d, euid = %d, pid = %d\n", (int) getuid(), (int) geteuid(), (int) getpid());
+    printf("Hello world! uid = %d, euid = %d, pid = %d\n", (int) getuid(), (int) geteuid(), (int) getpid());
 	
 	(void) sleep(10);
 	
