@@ -8,8 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    
+    IBOutlet NSTextField *  _textField;
+    
+    AuthorizationRef        _authRef;
+    
+}
 
+@property (strong, nonatomic) NSStatusItem *statusItem;
+@property (assign, nonatomic) BOOL darkModeOn;
 
 @end
 

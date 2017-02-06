@@ -50,9 +50,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface SMJobBlessAppController : NSObject <NSApplicationDelegate> {
-	IBOutlet NSTextField *  _textField;
+//	IBOutlet NSTextField *  _textField;
     
-    AuthorizationRef        _authRef;
+//    AuthorizationRef        _authRef;
 }
 
 @end
